@@ -8,7 +8,7 @@ body {
 header {
     display: inline-flex;
     flex-direction:row;
-    background-color:#F685A5;
+    background-color:#f6b1c5;
     min-height: 4.3125rem;
     width: 100%;
     position: sticky;
@@ -45,6 +45,7 @@ nav a {
     color: #ffff;
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 1.1rem;
 }
 
 nav a:hover {
@@ -225,7 +226,7 @@ h3 {
     font-size: 2rem;
     font-family: 'Pacifico', cursive;
     text-align: center;
-    color: #85E0C7;
+    color: #F685A5;
     margin: 3rem 0 0 0;
    
 
@@ -254,7 +255,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    background-color: #F685A5;
+    background-color: #f6b1c5;
 }
 
 footer h2 {
@@ -270,33 +271,15 @@ footer h3 {
 
 
 .fa {
-    padding: 1.25rem;
+    padding: 1rem;
     font-size: 1.875rem;
     width: 3.125rem;
     text-align: center;
     text-decoration: none;
     margin: 0.3125rem 0.125rem;
+    color: #ffff;
   }
 
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-  
-  .fa-pinterest {
-    background: #cb2027;
-    color: white;
-  }
 
   .footer-title {
     color: #F685A5;
