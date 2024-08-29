@@ -60,7 +60,7 @@ h2 {
 
 
 h3 {
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 .mobile-nav {
@@ -106,7 +106,7 @@ h3 {
     height: auto;
     max-height: 30rem;
     text-align: center;
-    line-height: 1;
+    line-height: 1.5;
     background-color: #e3ffc3;
     border-radius: 32px;
     opacity: 0.8;
