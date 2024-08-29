@@ -141,7 +141,9 @@ h3 {
     width: 100%;
     height: auto;
     margin: 2rem auto;
-    background-color: #F685A515;
+    background-color: #F685A510;
+    border: transparent;
+    border-radius: 20%;
    
 }
 
@@ -191,7 +193,7 @@ h3 {
     justify-content: space-around;
     row-gap: 1.5rem;
     align-content: center;
-    background-color: #F685A515;
+    background-color: #F685A510;
    
 
 }
@@ -208,7 +210,7 @@ h3 {
 
 .team-container img {
 
-    border: 4px solid #F685A5;
+    border: 1px solid #F685A5;
 }
 
 
