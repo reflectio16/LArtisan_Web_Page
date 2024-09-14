@@ -8,7 +8,7 @@ body {
 header {
     display: inline-flex;
     flex-direction:row;
-    background-color:#f6b1c5;
+    background-color: #CC97C8;
     min-height: 4.3125rem;
     width: 100%;
     position: sticky;
@@ -54,14 +54,25 @@ nav a:hover {
 }
 
 
-h2 {
-    font-family: 'Pacifico', cursive;
+#main-title {
+    
+    font-size: 1.4rem;
+    color: #994393;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#sub-title {
+    font-size: 1.3rem;
+    color: #e000e0;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+   
 }
 
 
-h3 {
-    line-height: 1.4;
-}
 
 .mobile-nav {
     display: none;
@@ -107,21 +118,21 @@ h3 {
     max-height: 30rem;
     text-align: center;
     line-height: 1.5;
-    background-color: #e3ffc3;
+    background-color: #FFF596;
     border-radius: 32px;
     opacity: 0.8;
     margin-top: 18rem;
     padding-inline: 2rem;
-    color: #F685A5;
     
 }
 
 .button {
 
-    padding: 0.1rem 0.8rem;
-    background-color:#F685A5;
-    border: 1px solid #F685A5;
-    margin-top: 1.2rem;
+    padding: 0.2rem 0.9rem;
+    background-color:#994393;
+    border: 1px solid #994393;
+    border-radius: 10%;
+    margin-top: 1.3rem;
     color: #ffff;
     font-family: 'Pacifico', cursive;
     font-size: 1.1rem;
@@ -129,7 +140,7 @@ h3 {
 
 .button:hover {
     cursor: pointer;
-    color: #e3ffc3;
+    color: #FFF596;
 }
 
 
@@ -140,7 +151,8 @@ h3 {
 .product-container {
     width: 100%;
     height: auto;
-    margin: 2rem auto;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
     background-color: #F685A510;
     border: transparent;
     border-radius: 20%;
@@ -164,7 +176,7 @@ h3 {
     text-align: center;
     margin-top: 0.6rem;
     color: #ffff;
-    background-color: #F685A590;
+    background-color: #994393;
     
 }
 
@@ -174,7 +186,7 @@ h3 {
 
 .products p:hover {
     cursor: pointer;
-    color: #e3ffc3;
+    color: #FFF596;
 }
 
 
@@ -201,7 +213,7 @@ h3 {
 .team-container p {
 
     font-size: 1.2rem;
-    color: #F685A5;
+    color: #994393;
     text-align: center;
     margin-bottom: 0;
     
@@ -210,7 +222,7 @@ h3 {
 
 .team-container img {
 
-    border: 1px solid #F685A5;
+    border: 1px solid #CC97C8;
 }
 
 
@@ -228,7 +240,7 @@ h3 {
     font-size: 2rem;
     font-family: 'Pacifico', cursive;
     text-align: center;
-    color: #F685A5;
+    color: #CC97C8;
     margin: 3rem 0 0 0;
    
 
@@ -238,7 +250,7 @@ h3 {
 
     font-size: 2rem;
     font-weight: 600;
-    color: #F685A5;
+    color: #994393;
     text-align: center;
     margin-top: 0;
     margin-block-end: 1.5rem;
@@ -257,7 +269,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    background-color: #f6b1c5;
+    background-color: #CC97C8;
 }
 
 footer h2 {
